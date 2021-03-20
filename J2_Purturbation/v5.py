@@ -18,6 +18,6 @@ if __name__ == '__main__':
 
     op0 = OP(t.tle2coes('C:\\Users\\soft_kitty\\VScode Source\\python\\kepler_orbit\\ISS.txt'), tspan, dt, coes = True, deg = False, perts = perts)
 
-    op0.calculate_coes()
+    op0.calculate_coes(degrees = True)
     #t.plot_n_orbits([op0.rs], labels = ['ISS'], show_plot = True)
     op0.plot_coes(show_plot = True, hours = True)
