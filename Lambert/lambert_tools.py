@@ -1,3 +1,7 @@
+#
+#   https://www.researchgate.net/publication/236012521_Lambert_Universal_Variable_Algorithm
+#
+
 import math
 import numpy as np
 
